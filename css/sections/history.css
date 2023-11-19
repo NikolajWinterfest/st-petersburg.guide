@@ -1,0 +1,132 @@
+/* __________ History __________ */
+
+.history {
+    padding-top: 157px;
+    padding-bottom: 184px;
+}
+
+.history__wrapper {
+    max-width: 1205px;
+}
+
+.history__title {
+    font-size: 32px;
+    line-height: 43px;
+    color: var(--color__brown);
+}
+
+.history__list {
+    padding-top: 40px;
+    counter-reset: counter;
+}
+
+.history__item {
+    position: relative;
+    max-width: 978px;
+    margin: 0 auto;
+    height: 201px;
+}
+
+.history__item::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-family: 'Prata';
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--color__white);
+    background-color: var(--color__orange);
+    counter-increment: counter;
+    content: counter(counter);
+    transform: translate(-50%, -50%);
+}
+
+.history__item:not(:nth-child(2n)) {
+    justify-content: flex-end;
+}
+
+.history__item:nth-child(2n) .history__block {
+    flex-direction: row-reverse;
+}
+
+.history__block {
+    position: relative;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.history__block::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -0.5px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--color__orange);
+}
+
+.history__block::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--color__orange);
+}
+
+.history__item:nth-child(2n) .history__block::after {
+    left: auto;
+    right: -0.5px;
+}
+
+.history__item:first-child .history__block::after {
+    top: 50%;
+}
+
+.history__item:last-child .history__block::after {
+    bottom: 50%;
+}
+
+.content-block__text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.content-block__title {
+    align-items: flex-end;
+    max-width: 300px;
+    height: 50%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.content-block__descr {
+    position: relative;
+    max-width: 300px;
+    height: 50%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.content-block__picture {
+    align-items: center;
+}
+
+.content-block__picture-img {
+    box-sizing: content-box;
+    max-width: 150px;
+    width: 100%;
+    padding: 13px;
+    border: 1px solid var(--color__orange);
+    border-radius: 100%;
+    background-color: var(--color__beige);
+}

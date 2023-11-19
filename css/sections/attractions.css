@@ -1,0 +1,54 @@
+/* __________ Attractions __________ */
+
+.attractions {
+    padding-top: 125px;
+    padding-bottom: 76px;
+    background-color: var(--color__white);
+}
+
+.attractions__wrapper {
+    max-width: 1205px;
+}
+
+.attractions__title {
+    font-size: 32px;
+    line-height: 43px;
+    color: var(--color__brown);
+}
+
+.attractions__descrwrap {
+    justify-content: flex-end;
+    padding-top: 158px;
+    padding-bottom: 147px;
+}
+
+.attractions__descr {
+    max-width: 675px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.attrblock__item {
+    justify-content: space-between;
+    padding-top: 76px;
+    padding-bottom: 99px;
+    border-top: 1px solid var(--color__orange);
+}
+
+.attrblock__title {
+    max-width: 205px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.attrblock__picture {
+    padding-right: 24px;
+}
+
+.attrblock__descr {
+    max-width: 476px;
+    margin-top: -7px;
+    font-size: 16px;
+    line-height: 26px;
+}

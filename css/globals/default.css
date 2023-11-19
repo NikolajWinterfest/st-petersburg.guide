@@ -1,0 +1,56 @@
+/* ____________________ DEFAULT ____________________ */
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: var(--color__black);
+    background-color: var(--color__beige);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata';
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata';
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+:root {
+    --color__black: #000000;
+    --color__black-2: #181515;
+    --color__white: #FFFFFF;
+    --color__beige: #FDFAF4;
+    --color__brown: #AD2D11;
+    --color__orange: #FACA47;
+}

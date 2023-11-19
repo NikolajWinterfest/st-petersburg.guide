@@ -1,0 +1,36 @@
+/* ____________________ MAIN ____________________ */
+
+.main {
+    position: relative;
+}
+
+/* __________ Hero __________ */
+
+.hero {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1366px;
+    width: 100%;
+    background: url('../../img/hero/hero__background.jpg') no-repeat;
+    background-size: contain;
+}
+
+.hero__wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 298px;
+    padding-bottom: 335px;
+    width: 100%;
+}
+
+.hero__title {
+    padding-bottom: 7px;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--color__brown);
+}
+
+.hero__descr {
+    font-size: 24px;
+    line-height: 28px;
+}

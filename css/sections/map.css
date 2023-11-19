@@ -1,0 +1,38 @@
+/* __________ Map __________ */
+
+.map {
+    padding-top: 139px;
+}
+
+.map__wrapper {
+    max-width: 1205px;
+}
+
+.map__title {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: var(--color__brown);
+}
+
+#map__citymap {
+    padding-top: 56px;
+    max-width: 1366px;
+    height: 532px;
+    margin: 0 auto;
+}
+
+[class*="ground-pane"] {
+    filter: saturate(31%);
+}
+
+.ymaps-2-1-79-controls__control,
+.ymaps-2-1-79-controls__control_toolbar,
+.ymaps-2-1-79-controls__control_toolbar .ymaps-2-1-79-user-selection-none,
+.ymaps-2-1-79-search .ymaps-2-1-79-search_layout_normal .ymaps-2-1-79-searchbox__normal-layout,
+.ymaps-2-1-79-controls__control_toolbar .ymaps-2-1-79-user-selection-none,
+.ymaps-2-1-79-map-copyrights-promo,
+.ymaps-2-1-79-copyright__wrap {
+    visibility: hidden;
+}

@@ -1,0 +1,35 @@
+/* Fonts */
+@import url('fonts/fonts.css');
+
+/* Global Settings */
+@import url('globals/default.css');
+
+/* Global Settings */
+@import url('globals/global.css');
+
+/* Header */
+@import url('sections/header.css');
+
+/* Main and Hero Section */
+@import url('sections/hero.css');
+
+/* About City Section */
+@import url('sections/aboutcity.css');
+
+/* Guideinformation */
+@import url('sections/guideinformation.css');
+
+/* History */
+@import url('sections/history.css');
+
+/* Attractions */
+@import url('sections/attractions.css');
+
+/* Budgetoftravel */
+@import url('sections/budgetoftravel.css');
+
+/* Map */
+@import url('sections/map.css');
+
+/* Footer */
+@import url('sections/footer.css');

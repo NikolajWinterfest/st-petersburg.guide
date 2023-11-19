@@ -1,0 +1,45 @@
+/* ____________________ HEADER ____________________ */
+
+.header {
+    position: absolute;
+    z-index: 5;
+    padding-top: 32px;
+    width: 100%;
+}
+
+.header__menu {
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 25px;
+    width: 52%;
+    border-bottom: 1px solid #00000026;
+}
+
+.header-menu__list {
+    justify-content: space-between;
+    padding-bottom: 25px;
+    width: 91%;
+}
+
+.header-menu__item:not(:last-child) {
+    margin-right: 64px;
+}
+
+.header-menu__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color__black);
+    transition: color 0.3s ease;
+}
+
+@media(any-hover: hover) {
+    .header-menu__link:hover {
+        color: var(--color__orange);
+        transition: color 0.3s ease;
+    }
+
+    .header-menu__link:active {
+        color: var(--color__brown);
+        transition: color 0.3s ease;
+    }
+}

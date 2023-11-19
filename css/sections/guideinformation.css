@@ -1,0 +1,45 @@
+/* __________ Guideinformation __________ */
+
+.guideinformation {
+    position: relative;
+    padding-top: 191px;
+    padding-bottom: 191px;
+    background-color: var(--color__white);
+}
+
+.guideinformation::after {
+    content: '';
+    position: absolute;
+    top: 51px;
+    right: 435px;
+    width: 190px;
+    height: 267px;
+    background: url('../../img/guideinformation/guideinformation__petr1.png') no-repeat;
+    background-size: contain;
+}
+
+.guideinformation::before {
+    content: '';
+    position: absolute;
+    left: 443px;
+    bottom: 2px;
+    width: 241px;
+    height: 316px;
+    background: url('../../img/guideinformation/guideinformation__vase.png') no-repeat;
+    background-size: contain;
+}
+
+.guideinformation__wrapper {
+    max-width: 1236px;
+}
+
+.guideinformation__title {
+    display: none;
+}
+
+.guideinformation__descr {
+    padding-left: 15px;
+    max-width: 1100px;
+    font-size: 32px;
+    line-height: 54px;
+}
